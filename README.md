@@ -6,7 +6,7 @@ Modeling the Sequential Dependence among Audience Multi-step Conversions with Mu
 
 # Requirement
 python==3.6  
-tensorflow-gpu==1.10.0 
+tensorflow-gpu==1.10.0  
 keras==2.1.5
 
 # Dataset
