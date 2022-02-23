@@ -1,3 +1,19 @@
+# Reference
+If you are interested in the code, please cite our paper:
+```
+Xi D, Chen Z, Yan P, et al. Modeling the sequential dependence among audience multi-step conversions with multi-task learning in targeted display advertising[C]//Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining. 2021: 3745-3755.
+```
+or in bibtex style:
+```
+@inproceedings{xi2021modeling,
+  title={Modeling the sequential dependence among audience multi-step conversions with multi-task learning in targeted display advertising},
+  author={Xi, Dongbo and Chen, Zhen and Yan, Peng and Zhang, Yinger and Zhu, Yongchun and Zhuang, Fuzhen and Chen, Yu},
+  booktitle={Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery \& Data Mining},
+  pages={3745--3755},
+  year={2021}
+}
+```
+
 # AITM
 TensorFlow implementation of Adaptive Information Transfer Multi-task (AITM) framework.  
 Code for the paper accepted by KDD21: 
