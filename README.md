@@ -39,7 +39,7 @@ python process_public_dataset.py
 
 # Example to run the model
 ```
-python AITM.py --embedded_dim 5 --lr 1e-3 --early_stop 1 --lamda 1e-6 --prefix AITM --weight 0.6
+python AITM.py --embedding_dim 5 --lr 1e-3 --early_stop 1 --lamda 1e-6 --prefix AITM --weight 0.6
 ```
 
 The instruction of commands has been clearly stated in the codes (see the parse_args function).
