@@ -44,7 +44,10 @@ python AITM.py --embedding_dim 5 --lr 1e-3 --early_stop 1 --lamda 1e-6 --prefix 
 
 The instruction of commands has been clearly stated in the codes (see the parse_args function).
 
-# A Pytorch implementation
+# Other unofficial implementations for reference:
+## A PyTorch implementation of multi-task recommendation models
+[https://github.com/easezyc/Multitask-Recommendation-Library]
+## A Pytorch implementation
 [https://github.com/adtalos/AITM-torch]
 
-Last Update Date: Dec. 13, 2021 (UTC+8)
+Last Update Date: Mar. 07, 2022 (UTC+8)
