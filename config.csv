@@ -1,0 +1,9 @@
+only for AITM_standard.py
+file format:
+
+feature_name, vocabulary_size_of_the_feature
+feature1,12
+feature2,10
+feature3,3
+feature4,5
+…
