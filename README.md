@@ -7,7 +7,6 @@ Modeling the Sequential Dependence among Audience Multi-step Conversions with Mu
 # Requirement
 python==3.6  
 tensorflow-gpu==1.10.1  
-keras==2.1.5
 
 # Dataset
 We use the public Ali-CCP (Alibaba Click and Conversion Prediction) dataset. [https://tianchi.aliyun.com/datalab/dataSet.html?dataId=408].
