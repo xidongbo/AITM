@@ -28,6 +28,9 @@ python AITM.py --embedding_dim 5 --lr 1e-3 --early_stop 1 --lamda 1e-6 --prefix 
 
 The instruction of commands has been clearly stated in the codes (see the parse_args function).
 
+# Note
+Recently we reformatted the model code as ```AITM_standard.py```. If you want to run the model on multiple tasks (more than two), you can directly pass in the parameter ```--num_tasks``` in ```AITM_standard.py```. But you need to configure the ```config.csv``` file to specify the size of the feature dictionary.
+
 # Reference
 If you are interested in the code, please cite our paper:
 ```
@@ -50,4 +53,4 @@ or in bibtex style:
 ## A Pytorch implementation
 [https://github.com/adtalos/AITM-torch]
 
-Last Update Date: Mar. 07, 2022 (UTC+8)
+Last Update Date: Sep. 23, 2022 (UTC+8)
