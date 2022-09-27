@@ -4,7 +4,7 @@ Code for the paper accepted by KDD21:
 Modeling the Sequential Dependence among Audience Multi-step Conversions with Multi-task Learning in Targeted Display Advertising.
 [https://arxiv.org/abs/2105.08489]
 
-# Note
+# Note(New)
 Recently we reformatted the model code as ```AITM_standard.py```. If you want to run the model on multiple tasks (more than two), you can directly pass in the parameter ```--num_tasks``` in ```AITM_standard.py```. But you need to configure the ```config.csv``` file to specify the size of the feature dictionary.
 
 # Requirement
