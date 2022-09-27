@@ -352,8 +352,9 @@ class AITM(object):
         :param feature_embedding: the embedded input.
         :return: the tower.
         '''
+        tower = feature_embedding
         for layer_idx in range(len(self.layers)):
-            tower = tf.keras.layers.Dense(self.layers[layer_idx])(feature_embedding)
+            tower = tf.keras.layers.Dense(self.layers[layer_idx])(tower)
             if self.batch_norm:
                 tower = self.batch_norm_layer(tower, self.train_phase, scope_bn='bn_{}_{}'.format(task_idx, layer_idx))
             tower = tf.keras.layers.Activation(activation=self.activation)(tower)
