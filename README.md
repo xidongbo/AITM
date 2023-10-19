@@ -48,7 +48,5 @@ or in bibtex style:
 # Other unofficial implementations for reference:
 ## A PyTorch implementation of multi-task recommendation models
 [https://github.com/easezyc/Multitask-Recommendation-Library]
-## A Pytorch implementation
-[https://github.com/adtalos/AITM-torch]
 
-Last Update Date: Sep. 23, 2022 (UTC+8)
+Last Update Date: Oct. 19, 2023 (UTC+8)
